@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.first_paragraph {
+  text-align: center;
+  font-style: italic;
+  text-decoration: overline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-size: 20px;
+  /* line-height: 40px; */
+  background-color: greenyellow;
+  color: brown;
+}
+
+.first_paragraph p {
+  line-height: 40px;
+}
+
+#img_part{
+    display: flex;
+    margin-right: 10px;
+}
+
+.squre {
+  height: 500px;
+  width: 500px;
+  border: 10px groove gray;
+  /* background-color: brown; */
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+  background: linear-gradient(red,green,blue),
+  url("/img/img1.jpg")
+
+  ;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+#squre{
+background-image: url(/img/father_son.jpeg);
+}
+#squre1{
+background-image: url(/img/photo_2022-11-20_14-18-31.jpg);
+}
+#squre2{
+background-image: url(/img/photo_2023-05-16_23-22-14.jpg);
+}
+#squre3{
+background-image: url(/img/photo_2023-05-16_23-22-14\ \(2\).jpg);
+}
+#squre4{
+background-image: url(/img/Screenshot\ \(236\).png);
+}
+

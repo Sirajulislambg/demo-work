@@ -1,0 +1,12 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gabarito', cursive;
+}

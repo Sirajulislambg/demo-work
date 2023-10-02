@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo_section {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+}
+
+.only_logo {
+  color: brown;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+  background-color: rgb(209, 207, 204);
+  padding: 30px 0px;
+  margin: auto;
+  font-family: "Gabarito", cursive;
+}
+
+.nav_item {
+  display: flex;
+  list-style: none;
+}
+
+.nav_item a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.753);
+}
+
+#login {
+  border: 3px solid brown;
+  padding: 5px 6px;
+  background-color: brown;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.hero_section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: gray; */
+  padding: 100px;
+  line-height: 40px;
+  font-size: 20px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(/img/hacking_pic.jpg);
+
+  /* background-repeat: no-repeat;
+    background-size: cover; */
+  margin-bottom: 80px;
+}
+
+.input_area {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.input_field {
+  padding: 6px;
+  width: 400px;
+  outline: none;
+  font-size: 25px;
+  font-weight: 400;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.btn_get {
+  padding: 10px 5px;
+  font-weight: bold;
+  background-color: burlywood;
+  outline: none;
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+  border: 0px solid gold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 18px;
+}
+
+.heading_text {
+  color: white;
+}
+
+.heading_paragraph {
+  color: rgb(253 244 250);
+}
+
+#img_part {
+  margin: 20px 0px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_text {
+  display: flex;
+  margin: 20px 20px;
+}
+
+.display_img_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-right: 10px;
+}
+
+.text_part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#gallery_text {
+  color: rgb(66, 66, 175);
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Gabarito", cursive;
+}
+
+#second_text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+}
+
+.paragraph_text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+.button_img {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Gabarito", cursive;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.button_part {
+  padding: 7px 0px;
+  border-radius: 10px;
+  background-color: rgb(66, 66, 175);
+  outline: none;
+  border: none;
+  width: 25vw;
+}
+
+#main_contact {
+  background: linear-gradient(
+      rgba(255, 244, 244, 0.4),
+      rgba(229, 226, 226, 0.158)
+    ),
+    url(img/background_img.jfif);
+
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.display_flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.text_in_contact {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.text_in_contact p {
+  color: orange;
+}
+
+.text_in_contact h3 {
+  color: black;
+}
+.text_for_contact {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+  font-weight: 600;
+  color: black;
+}
+
+.text_for_contact a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  background-color: orange;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.footer_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Young Serif", serif;
+}

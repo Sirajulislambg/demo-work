@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    height: 700px;
+    width: 700px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
